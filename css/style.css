@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* max-width: 1440; */
+    width: 75%;
+    margin: 0 auto;
+}
+
+.section_head {
+    color: #272727;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+
+}
+
+.peragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    width: 480px;
+    margin: 25px 0;
+}
+
+.pink_button {
+    color: white;
+    font-size: 26px;
+    font-family: Lato;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: #E55473;
+    border: none;
+    cursor: pointer;
+    transition: all linear .3s;
+    margin-bottom: 10px;
+}
+
+#header_part {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_part h1 {
+    color: #272727;
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    width: 520px;
+    margin-top: 100px;
+}
+
+
+.pink_button:hover {
+    background-color: white;
+    color: #E55473;
+    /* border: 1px solid #E55473; */
+}
+
+.header_image {
+    margin-top: 35px;
+
+}
+
+.header_image img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* featured flower style */
+#featured_flower {
+    margin: 110px;
+}
+
+.flower_main {
+
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.featured_head .section_head {
+    text-align: center;
+}
+
+.featured_head .peragraph {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.flower_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.flower_one .flower {
+    background: rgba(229, 84, 115, 0.10);
+    border-radius: 300px 300px 0px 0px;
+    vertical-align: middle;
+    width: 300px;
+    height: 400px;
+}
+
+.flower_one .flower img {
+    width: 220px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 96px 40px 0px 40px;
+}
+
+p {
+    color: #272727;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.flower_two .flower {
+    background: rgba(5, 150.70, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    vertical-align: middle;
+    width: 300px;
+    height: 400px;
+}
+
+.flower_two .flower img {
+    width: 220px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 96px 40px 0px 40px;
+}
+
+.flower_three .flower {
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    vertical-align: middle;
+    width: 300px;
+    height: 400px;
+}
+
+.flower_three .flower img {
+    width: 220px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 69px 40px 0px 40px;
+}
